@@ -19,12 +19,35 @@
 }
 
 .user {
-	 background-color: #c6c7c0;
+	 background-color: #a8c8ff;
 	 border-radius: 25px;
 	 height: 200%;
 	 font-size: 16pt;
  	 outline-color: white;
+ 	 padding-left : 10px;
 }
+
+.search {
+	 border-radius: 25px;
+	 height: 200%;
+	 font-size: 16pt;
+ 	 outline-color: white;
+ 	 padding-left : 10px;
+}
+
+.headpad {
+	padding-top: 12px;
+}
+
+.hname {
+	font-size: 17pt;
+	color: White;
+}
+
+.prof_name {
+	font-size: 14pt;
+}
+
 .btn{
 	padding-left:75px;
 }
@@ -38,16 +61,56 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #c6c7c0;
+  background-color: #a8c8ff;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 
-.button1:hover {background-color: #c6c7c0}
+.button1:hover {background-color: #5994f9}
 
 .button1:active {
-  background-color: #c6c7c0;
+  background-color: #5994f9;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+#button2 {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4078ad;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+.row.content {height: 100%}
+
+.sidenav {
+	margin-left:50px;
+ 	padding-top: 10px;
+    background-color: #f1f1f1;
+    }
+    
+   
+ @media screen and (max-width: 700px) {
+    .sidenav {
+        height:auto;
+      }
+      .row.content {height:150%;} 
+    }
+
+#add_form {
+	font-size:14pt;
 }

@@ -17,7 +17,7 @@ public class Login extends HttpServlet {
         
         if(Validate.checkUser(usernme, passwrd))
         {
-            RequestDispatcher rs = request.getRequestDispatcher("Welcome");
+            RequestDispatcher rs = request.getRequestDispatcher("Product.jsp");
             rs.forward(request, response);
         }
         else
